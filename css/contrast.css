@@ -72,3 +72,8 @@
 .contrast img.on-contrast-force-white {
     filter: brightness(0) invert(1);
 }
+
+.contrast img {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
